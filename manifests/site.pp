@@ -79,6 +79,7 @@ node default {
   include java
   include keepassx
   include chrome
+  include dropbox
     
   # common, useful packages
   package {
