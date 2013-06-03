@@ -34,3 +34,4 @@ github "sudo",       "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "sublime_text_2", "1.1.1"
+github "osx", "1.3.0"
