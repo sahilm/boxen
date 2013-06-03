@@ -66,7 +66,8 @@ node default {
   # default ruby versions
   include ruby::1_9_3
   include ruby::2_0_0
-  
+  ruby::version { '2.0.0-p195': }
+
   include sublime_text_2
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
