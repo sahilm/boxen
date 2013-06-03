@@ -35,3 +35,7 @@ github "sudo",       "1.0.0"
 # https://github.com/boxen.
 github "sublime_text_2", "1.1.1"
 github "iterm2", "1.0.2"
+github "alfred", "1.0.4"
+github "java", "1.1.1"
+github "keepassx", "1.0"
+github "chrome",  "1.1.0"

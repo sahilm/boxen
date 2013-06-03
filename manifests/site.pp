@@ -71,7 +71,12 @@ node default {
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }
-  include iterm2::dev  
+  sublime_text_2::package { 'sublime-text-puppet':
+    source => 'eklein/sublime-text-puppet'
+  }
+  include iterm2::dev
+  include alfred
+  include java  
   # common, useful packages
   package {
     [
