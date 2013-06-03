@@ -76,7 +76,10 @@ node default {
   }
   include iterm2::dev
   include alfred
-  include java  
+  include java
+  include keepassx
+  include chrome
+    
   # common, useful packages
   package {
     [
