@@ -1,5 +1,4 @@
 class people::sahilm {
-  include sudo
   $home = "/Users/${::luser}"
 
   sudoers { 'NAME':
