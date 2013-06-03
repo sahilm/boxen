@@ -71,7 +71,7 @@ node default {
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }
-  
+  include iterm2::dev  
   # common, useful packages
   package {
     [
